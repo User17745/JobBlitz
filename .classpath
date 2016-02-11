@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="E:/Java Advanced Project/External JARs/commons-fileupload-1.2.2.jar"/>
+	<classpathentry kind="lib" path="E:/Java Advanced Project/External JARs/commons-io-2.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/Java Advanced Project/External JARs/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="E:/Java Advanced Project/External JARs/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="E:/Java Advanced Project/External JARs/commons-logging-api-1.1.jar"/>
+	<classpathentry kind="lib" path="E:/Java Advanced Project/External JARs/freemarker-2.3.18.jar"/>
+	<classpathentry kind="lib" path="E:/Java Advanced Project/External JARs/javassist-3.11.0.GA.jar"/>
+	<classpathentry kind="lib" path="E:/Java Advanced Project/External JARs/mail.jar"/>
+	<classpathentry kind="lib" path="E:/Java Advanced Project/External JARs/mysql-connector-java-5.1.18-bin.jar"/>
+	<classpathentry kind="lib" path="E:/Java Advanced Project/External JARs/mysql-database-1.8.0-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Java Advanced Project/External JARs/mysql-database-1.8.1.jar"/>
+	<classpathentry kind="lib" path="E:/Java Advanced Project/External JARs/ognl-3.0.4.jar"/>
+	<classpathentry kind="lib" path="E:/Java Advanced Project/External JARs/servlet-api.jar"/>
+	<classpathentry kind="lib" path="E:/Java Advanced Project/External JARs/struts2-core-2.3.1.2.jar"/>
+	<classpathentry kind="lib" path="E:/Java Advanced Project/External JARs/struts2-dojo-plugin-2.3.1.2.jar"/>
+	<classpathentry kind="lib" path="E:/Java Advanced Project/External JARs/xwork-core-2.3.1.2.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

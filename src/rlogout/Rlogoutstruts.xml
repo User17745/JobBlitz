@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+ 
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+  
+<struts>  
+  
+	<package name="rlogout" extends="struts-default">  
+
+		<action name="rlogout" class="candidatesql.Rlogout">  
+			
+			<result name="success">Recruiter.jsp</result>
+			<result name="fail">Fail.jsp</result>
+						
+		</action>  
+  
+	</package>  
+  
+</struts>      

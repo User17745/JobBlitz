@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+ 
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+  
+<struts>  
+  
+	<package name="cdelete" extends="struts-default">  
+
+		<action name="cdelete" class="candidatesql.Cdelete">  
+			
+			<result name="success">Adelete.jsp</result>
+			<result name="fail">Cfail.jsp</result>
+			
+		</action>  
+  
+	</package>  
+  
+</struts>      

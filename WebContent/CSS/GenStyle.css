@@ -1,0 +1,234 @@
+@CHARSET "ISO-8859-1";
+
+
+body
+{
+	background-color: #DDD;
+	font-family: Agency FB, Arial, sans-serif;
+	font-size: 22;
+
+}
+
+	.Single
+	{
+		clear: BOTH;
+		margin: 25%;
+	}
+	a:visited
+		{
+			color: #0000AA;
+		}
+	a:link
+		{
+			color: #0000AA;
+		}	
+	
+	h2
+	{
+		font-weight: BOLD;
+		text-transform: UPPERCASE;
+		font-size: 52;
+		background-color: WHITE;
+		color: #45AABB;
+	}
+	
+	h3
+	{
+		background-color: #66CCFF;
+		width: 20%;
+		color: WHITE;
+	}
+	
+	h4
+	{
+		background-color: #54CCCC;
+		width: 50%;
+		color: #FFF;
+	}
+		
+	
+			
+	hr
+	{
+		width: 95%;
+		color: GREY;
+	}
+	
+
+ 	#Content
+	{
+		background-color: WHITE;
+		margin-left: AUTO;
+		margin-right: AUTO;
+		width: 85%;
+	}
+	
+		#Header
+		{
+			padding: 1%;
+			height: 25%; 
+			position: FIXED;
+		}
+		
+			#Logo
+			{
+				width: 30%;
+				background-color: #bfd63c;
+				float: LEFT;
+				color: WHITE;
+				margin-top: 6px;
+			}
+				#Logo a	
+				{
+					text-decoration: NONE;
+					display: BLOCK;
+					width: 100%;
+				}	
+				#Logo a:link, #Logo a:visited
+				{
+					display: BLOCK;
+					width: 177.4px;
+					font-weight: BOLD;
+					color: WHITE;
+					padding: 4px;
+				}
+				
+			#Blank
+			{
+				width: 100%;
+				background-image: url('top.jpg');
+				background-repeat: NO-REPEAT;
+				margin: 0;
+				padding: 0; 
+			}
+			h6
+			{
+			margin: 0;
+			padding: 0;
+			font-size: 70px;
+			text-align: END;
+			text-transform: UPPERCASE;
+			font-weight: BOLD;
+			color: RED;
+			}
+			
+			#NavBar
+			{
+				float: RIGHT;
+				height: 12.5%;
+				width: 75%;
+			}
+				#NavBar a
+				{
+					text-decoration: NONE;
+					display: BLOCK;
+					width: 60px;	
+				}	
+				#NavBar a:link , #NavBar a:visited
+				{
+					display: BLOCK;
+					width: 204px;
+					font-weight: BOLD;
+					color: WHITE;
+					background-color: #98bf21;
+					text-align: CENTER;
+					padding: 4px;
+					text-transform: UPPERCASE;
+					transition: BACKGROUND 0.3s LINEAR 0s, COLOR 0.5s LINEAR 0s;
+				}
+				#NavBar a:hover, #NavBar a:active
+				{
+					background-color: #FF6600;
+				}
+				#NavBar ul
+				{
+					list-style-type: NONE;
+					margin: 0;
+					padding: 0;
+					overflow: HIDDEN;
+				}
+				#NavBar li
+				{		
+					display: INLINE;
+					float: LEFT;
+				}
+				
+		#Mid
+		{
+			padding:1%;
+			background-color:#c9fcbe;
+		}	
+		
+		Block1
+		{
+			clear: BOTH;
+			float: LEFT;
+		}
+		
+		Block2
+		{
+			clear: BOTH;
+			float: RIGHT;
+		}
+		
+
+	#Footer
+	{
+		clear: BOTH;
+		background-color: #AAA;
+		height: 13%;
+		text-align: RIGHT;
+		color: WHITE;
+	}		
+	
+/*
+
+<link rel = "stylesheet" type = "text/css" href = "CSS\GenStyle.css" />
+
+
+	<div id = "Content">
+		<div id = "Top">
+			<div id ="Logo">
+				<h1><a href = "Homepage1.jsp">JobBlitZ!!</a></h1>
+			</div>
+		
+			<div id = "Blank">
+				<!--<p align = "right"><img src = "header.png"></p>-->
+			</div>
+		
+			<div id = "NavBar">
+				<ul>
+					<li> <a href = "Candidate.jsp">LogIn/JOIN!</a> </li>
+					<li> <a href = "Recruiter.jsp">Recruiter's Section</a> </li>
+					<li> <a href = "AboutUs.jsp">About Us</a> </li>
+					<li> <a href = "Contact.jsp">Contact Us</a> </li>
+				</ul>
+			</div>
+		</div>	
+		
+		
+		<div id = "Mid">
+	
+			<div id = "Block1">
+			
+			
+			</div>
+			
+			<div id = "Block2">
+			
+			
+			</div>
+			
+		</div>
+		
+		<div id = "Footer">
+			Copyright &copy; 2015 NIEC Project.
+		</div>
+
+	</div>
+
+
+
+
+*/	
+	

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+ 
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+  
+<struts>  
+  
+	<package name="capply" extends="struts-default">  
+
+		<action name="capply" class="candidatesql.Capply">  
+			
+			<result name="success">Capply.jsp</result>
+			<result name="fail">CapplyFail.jsp</result>
+			<result name="fail2">CapplyFail2.jsp</result>
+		</action>  
+  
+	</package>  
+  
+</struts>      

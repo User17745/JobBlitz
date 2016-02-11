@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+ 
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+  
+<struts>  
+  
+  	<include file="/select/Selectstruts.xml"/>
+  
+  	<include file="/insert/Insertstruts.xml"/>  							<!-- Candidate manuplating struts -->
+  	<include file="/login/Loginstruts.xml"/>
+  	<include file="/delete1/Deletestruts1.xml"/>
+  	<include file="/delete2/Deletestruts2.xml"/>
+  	<include file="/update1/Updatestruts1.xml"/>
+  	<include file="/update2/Updatestruts2.xml"/>
+  	<include file="/view/Cviewstruts.xml"/>									<!-- View notification of candidate -->
+  	<include file="/feedback/Feedbackstruts2.xml"/>							<!-- Enter feedback -->	
+  	<include file="/getfeedback/Getfeedbackstruts.xml"/>					<!-- Getting feedback -->
+  	<include file="/logout/Logoutstruts.xml"/> 
+  	<include file="/capply/Capplystruts.xml"/>
+  	<include file="/delnotification/Delnotificationstruts.xml"/>
+  	<include file="/refresh/Refreshstruts.xml"/>
+  	<include file="/search/Searchstruts.xml"/> 								
+  	
+  	<include file="/advanced/Advancedstruts.xml"/>							<!-- Advanced Searching struts -->
+  
+  	<include file="/rinsert/Rinsertstruts.xml"/>							<!-- Recruiter manuplative struts -->
+  	<include file="/rlogin/Rloginstruts.xml"/>
+  	<include file="/rdelete1/Rdeletestruts1.xml"/>
+  	<include file="/rdelete2/Rdeletestruts2.xml"/>
+  	<include file="/rupdate1/Rupdatestruts1.xml"/>
+  	<include file="/rupdate2/Rupdatestruts.xml"/>
+  	<include file="/rsearch/Rsearchstruts.xml"/>
+  	<include file="/rnotification/Rnotificationstruts.xml"/>				<!-- Sending notification struts -->
+  	<include file="/rlogout/Rlogoutstruts.xml"/> 
+  	<include file="/rapplied/Rappliedstruts.xml"/>
+  	<include file="/rrefresh/Rrefreshstruts.xml"/>
+  	
+  	<include file="/database/Databasestruts.xml"/>							<!-- Admin block manuplation -->
+  	<include file="/cdelete/Cdeletestruts.xml"/>
+  	<include file="/rdelete/Rdeletestruts.xml"/>
+  	<include file="/adminlogin/Adminloginstruts.xml"/>
+  	<include file="/aupdate/Aupdatestruts.xml"/> 
+  	
+  	<include file="/sendmail/struts-config.xml"/> 
+  	<include file="/upload/Filestruts.xml"/> 
+  	
+	<package name="default" extends="struts-default">  
+  
+	</package>  
+  
+</struts>      

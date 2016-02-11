@@ -1,0 +1,204 @@
+@CHARSET "ISO-8859-1";
+
+body
+{
+	font-family: Agency FB, Arial, sans-serif;
+	font-size: 22;
+	color: WHITE;
+	
+	background-image: url('AdBack.gif');
+	-webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+	
+}
+
+/* Chrome, Safari, Opera */
+	@-webkit-keyframes mymove 
+	{
+   		50% {background-position: center;}
+	}
+
+/* Standard syntax */
+	@keyframes mymove 
+	{
+    	50% {background-position: center;}
+	}
+
+	.Bor
+		{
+			border-right-style: SOLID;
+			border-width: 1px;
+			border-color: WHITE;
+			margin-bottom: 3%;
+			margin-top: 3%;
+		}
+		
+	.Single
+	{
+		height: 200px;
+		padding: 10%;
+		text-align: CENTER;
+	}
+		
+	#Content
+	{
+		background-color: BLACK;
+		margin-left: AUTO;
+		margin-right: AUTO;
+		/* padding-bottom: 12%;  */
+		width: 70%;
+		
+		
+		background-image: url('AdMid.png');
+			background-repeat: NO-REPEAT;
+			background-position: CENTER;
+	}
+
+		#Top
+		{
+			padding: 1%;
+			height: 25%;
+			position: fixed;
+		}
+
+			#Logo
+			{
+				width: 30%;
+				background-color: #fd6c58;
+				float: LEFT;
+				color: WHITE;
+				margin-top: 6px;
+			}
+			
+			
+			/* #Logo
+			{
+				width: 30%;
+				background-color: #bfd63c;
+				float: LEFT;
+				color: WHITE;
+				margin-top: 6px;
+			} */
+			
+			
+				#Logo a	
+				{
+					text-decoration: NONE;
+					display: BLOCK;
+					width: 100%;
+				}	
+				#Logo a:link, #Logo a:visited
+				{
+					display: BLOCK;
+					width: 177.4px;
+					font-weight: BOLD;
+					color: WHITE;
+					padding: 4px;
+				}
+				
+		#Blank
+			{
+				height: 12.5%;
+				background-image: url("UI\top.jpg");
+			}
+
+			#NavBar
+			{
+				float: RIGHT;
+				padding: 0;
+				margin: 0;
+				height: 12.5%;
+				width: 100;
+			}
+ 				#NavBar ul
+				{
+					list-style-type: NONE;
+					margin: 0;
+					padding: 0;
+					overflow: HIDDEN;
+				}
+				#NavBar li
+				{		
+					display: INLINE;
+					float: LEFT;
+				}
+				#NavBar a 	
+				{
+					text-decoration: NONE;
+					display: BLOCK;
+					width: 60px;	
+				}	
+			#Mid a:link,#Mid a:visited
+			{
+				display: BLOCK;
+				width: 177.4px;
+				font-weight: BOLD;
+				color: WHITE;
+				background-color: #FD482F;
+				text-align: CENTER;
+				padding: 4px;
+				text-transform: UPPERCASE;
+				transition: BACKGROUND 1s LINEAR 0s, COLOR 0.5s LINEAR 0s;
+			}
+			#Mid a:hover, #Mid a:active
+			{
+				background-color: #FF6600;
+			}
+		
+		#Mid
+		{	
+			clear: BOTH;
+			padding: 2%;
+		}
+			h3
+			{
+				background-color: #DE1C01;
+				width: 35%;
+				color: WHITE;
+			}
+			
+			#DBSelect
+			{
+				float: LEFT;
+				margin-top: 3%;			
+				width: 50%;
+				margin-bottom: 20%;	
+			}
+		
+			#DBDelete
+			{
+				float: RIGHT;
+				margin-top: 3%;
+				width: 50%;
+				margin-botton: 20%;	
+			}
+			 
+		#Bottom
+		{
+			clear: BOTH;
+			background-color: WHITE;
+			font-weight: BOLD;
+			margin: 0;
+			padding: 0;
+		}	 
+		 h2
+		 {
+		 	font-size: 12px;
+		 	background-color: WHITE;
+		 	width: 40%;
+		 	margin: 0;
+		 }
+		  h2 a
+		  {
+		  	text-decoration: NONE;
+		  	color: BLACK;
+		  }
+		 
+		#Footer
+		{
+			clear: BOTH;
+			text-align: RIGHT;
+			color: WHITE;
+			background-color: BLACK;
+		}	
+			

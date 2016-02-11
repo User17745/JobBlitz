@@ -1,0 +1,177 @@
+@CHARSET "ISO-8859-1";
+
+
+body
+{
+	background-color: #DDD;
+	font-family: Agency FB, Arial, sans-serif;
+	font-size: 22;
+}
+
+	.Bor
+		{
+			border-right-style: SOLID;
+			border-width: 0.5px;
+			border-color: #EEE;
+			margin-bottom: 3%;
+		}
+		
+			
+		hr
+		{
+			width: 95%;
+			color: GREY;
+		}
+	
+	#Content
+	{
+		background-color: WHITE;
+		margin-left: AUTO;
+		margin-right: AUTO;
+		width: 85%;
+	}
+	
+		#Top
+		{
+			padding: 1%;
+			height: 25%; 
+		}	
+		
+			#Logo
+			{
+				width: 30%;
+				background-color: #bfd63c;
+				float: LEFT;
+				color: WHITE;
+				margin-top: 6px;
+			}
+				#Logo a	
+				{
+					text-decoration: NONE;
+					display: BLOCK;
+					width: 100%;
+				}	
+				#Logo a:link, #Logo a:visited
+				{
+					display: BLOCK;
+					width: 177.4px;
+					font-weight: BOLD;
+					color: WHITE;
+					padding: 4px;
+				}
+				
+			#Blank
+			{
+				width: 100%;
+				height: 95px;
+				background-image: url('top.jpg');
+				background-repeat: NO-REPEAT;
+				margin: 0;
+				padding: 0; 
+			}
+			h6
+			{
+			margin: 0;
+			padding: 0;
+			font-size: 70px;
+			text-align: END;
+			text-transform: UPPERCASE;
+			font-weight: BOLD;
+			color: RED;
+			}
+			
+			#NavBar
+			{
+				float: RIGHT;
+				height: 12.5%;
+				width: 75%;
+			}
+				#NavBar a
+				{
+					text-decoration: NONE;
+					display: BLOCK;
+					width: 60px;	
+				}	
+				#NavBar a:link , #NavBar a:visited/* , a:visited */
+				{
+					display: BLOCK;
+					width: 204px;
+					font-weight: BOLD;
+					color: WHITE;
+					background-color: #98bf21;
+					text-align: CENTER;
+					padding: 4px;
+					text-transform: UPPERCASE;
+					transition: BACKGROUND 0.3s LINEAR 0s, COLOR 0.5s LINEAR 0s;
+				}
+				#NavBar a:hover, #NavBar a:active
+				{
+					background-color: #FF6600;
+				}
+				#NavBar ul
+				{
+					list-style-type: NONE;
+					margin: 0;
+					padding: 0;
+					overflow: HIDDEN;
+				}
+				#NavBar li
+				{		
+					display: INLINE;
+					float: LEFT;
+				}
+				
+	#Mid
+	{
+		clear: BOTH;
+		padding:2%;
+	}
+		
+		#Mid h3
+		{
+			background-color: #66CCFF;
+			width: 45%;
+			color: WHITE;
+		}
+		#Mid h4
+		{
+			background-color: #54CCCC;
+			width: 50%;
+			color: #FFF;
+		}
+		#Mid h5
+		{
+			background-color: #BBB;
+			font-weight: BOLD;
+			fony-size: 30px;
+		}
+		
+		#Form
+		{
+			float: LEFT;
+			width: 50%;
+			
+		}
+			
+	
+		#Img
+		{
+			float: RIGHT;
+			width: 50%;
+			background-color:#EEE;
+			margin-bottom: 3%;
+			
+		}	
+			#Img ul
+			{
+				list-style-type: NONE;
+			}
+	
+	#Footer
+	{
+		clear: BOTH;
+		background-color: #AAA;
+		color: WHITE;
+		margin-top: 3%;
+		text-align: RIGHT;
+	}
